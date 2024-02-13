@@ -1,1 +1,2 @@
-/hola
+//hola
+var a = 1
