@@ -1,0 +1,149 @@
+
+*{
+	font-family: 'Verdana', sans-serif;
+}
+
+body {
+  background-color: #fff;
+  
+  --display: flex;
+  --align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+ 
+  overflow-y: scroll;
+  height: 20%;
+}
+
+#btn2{
+	color: red;
+}
+
+h2{
+color:rgb(42, 129, 222);
+}
+
+.modal-container {
+  display: flex;
+  background-color: rgba(0, 0, 0, 0.3);
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  pointer-events: none;
+  opacity: 0;  
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100vw;
+  transition: opacity 0.3s ease;
+}
+
+.show {
+  pointer-events: auto;
+  opacity: 1;
+}
+
+.modal {
+  background-color: #fff;
+  width: 600px;
+  max-width: 100%;
+  padding: 30px 50px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+
+.modal h1 {
+  margin: 0;
+}
+
+.modal p {
+  opacity: 0.7;
+  font-size: 21px;
+}
+
+
+
+
+td{
+	-font-size: 10px;
+}
+
+
+.tr_maclist{
+   background-color: rgb(159, 207, 240);
+}
+.tr_maclistPAUSE{
+  background: rgb(0,230,218);
+  background: linear-gradient(152deg, rgba(0,230,218,1) 0%, rgba(82,191,255,1) 46%, rgba(167,0,255,1) 100%);
+}
+.tbody_unmaclist{
+   color: #000000;
+}
+
+.tronline .dstatus{
+	color:#2e00ff;
+	--font-size: 25px;
+	
+}
+
+.troffline .dstatus{
+	color:#a90000;
+	--font-size: 25px;
+	
+}
+.rowonline{
+	background-color: #a3d12f;
+}
+.rowonlineLIBRE{
+	background-color: orange;
+}
+
+.rowonlineVIP{
+  background: #c969d5;
+  -background: linear-gradient(112deg, #9e9e9e 0%, #f2f2f3 100%);
+}
+.rowoffline{
+	background-color: #d6d6d6;
+}
+.rowPAUSE{
+  background: rgb(0,230,218);
+  background: linear-gradient(152deg, rgba(0,230,218,1) 0%, rgba(82,191,255,1) 46%, rgba(167,0,255,1) 100%);
+}
+.tdtime{
+	font-size: 15px;
+	font-family: consolas;
+	--color: green;
+	vertical-align: middle;
+}
+table *{
+	border-spacing: 0;
+}
+th{
+	padding: 5px;
+    background-color: #36444b;
+    color: #0cf;
+    font-family: system-ui;
+}
+header{
+background-color: #36444b;
+    color: rgb(42, 129, 222);
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.nav{
+	color: #def;
+    height: 40px;
+    background-color: #09c;
+    padding-top: 15px;
+    padding-left: 15px;
+}
+
+#_log{
+   width: 445px;
+    height: 491px;
+    background-color: rgb(40, 40, 40);
+    color: rgb(0, 204, 255);
+    font-size:  9px;
+}
